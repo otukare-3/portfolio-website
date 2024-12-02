@@ -15,3 +15,16 @@
     display: grid;
     grid-template-columns: 30% 35% 35%;
 }
+
+#project {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#project dt {
+    padding: 5px;
+}
+
+#project dt+dt {
+    border-top: 1px solid #666;
+}

@@ -27,3 +27,12 @@
 #project dt+dt {
     border-top: 1px solid black;
 }
+
+#work-experience {
+    padding: 5px;
+}
+
+#work-experience>section+section {
+    margin-top: 10px;
+    border-top: 1px solid black;
+}

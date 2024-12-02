@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    border-bottom: 4px double black;
 }
 
 #header>span {
     color: gray;
+    margin-bottom: 20px;
 }

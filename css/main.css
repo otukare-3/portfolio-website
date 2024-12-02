@@ -36,3 +36,11 @@
     margin-top: 10px;
     border-top: 1px solid black;
 }
+
+#education {
+    padding: 5px;
+}
+
+#education>ul {
+    list-style-type: "- ";
+}

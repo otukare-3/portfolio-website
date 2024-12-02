@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    align-content: center;
+}
+
+header>nav {
+    margin-inline-start: auto;
+}
+
+header>img {
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+}

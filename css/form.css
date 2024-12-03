@@ -1,0 +1,42 @@
+label,
+input,
+button,
+textarea {
+    font-size: 1.3rem;
+    line-height: 1.2;
+}
+
+form {
+    width: 30em;
+}
+
+form>div {
+    margin-top: 1rem;
+}
+
+form>div>input {
+    font-size: 1.3rem;
+}
+
+input,
+textarea {
+    padding: 0.4rem;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=submit] {
+    margin-top: 2rem;
+    background: #3740ff;
+    color: #fff;
+    border: none;
+    padding: 0.6rem;
+}
+
+input[type=submit]:focus,
+input[type=submit]:hover {
+    background: #272eb5;
+}

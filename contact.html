@@ -7,7 +7,10 @@
     <meta property="og:title" content="Frontend Developer - Contact" />
     <meta property="og:description" content="Roadmap project Frontend Developer Basic-HTML-Website" />
     <link rel="icon" sizes="16x16" type="image/png" href="/images/favicon.png" />
+    <link rel="stylesheet" href="/css/common.css" />
     <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/form.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
 </head>
 
 <body>
@@ -24,13 +27,21 @@
     <main>
         <h1>Contact</h1>
         <form action="/thankyou.html" method="post">
-            <label for="name">Name</label><br />
-            <input id="name" name="name" type="text" required><br />
-            <label for="email">Email</label><br />
-            <input id="email" name="email" type="email" required><br />
-            <label for="message">Message</label><br />
-            <textarea id="message" name="message" required></textarea><br />
-            <input type="submit" value="Submit Form" />
+            <div>
+                <label for="name">Name (required)</label><br />
+                <input id="name" name="name" type="text" required><br />
+            </div>
+            <div>
+                <label for="email">Email (required)</label><br />
+                <input id="email" name="email" type="email" required><br />
+            </div>
+            <div>
+                <label for="message">Message (required)</label><br />
+                <textarea id="message" name="message" required></textarea><br />
+            </div>
+            <div>
+                <input type="submit" value="Submit Form" />
+            </div>
         </form>
     </main>
     <footer>

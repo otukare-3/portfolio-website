@@ -1,3 +1,7 @@
+main {
+    margin-bottom: 100px;
+}
+
 #header {
     display: flex;
     flex-direction: column;
@@ -43,4 +47,28 @@
 
 #education>ul {
     list-style-type: "- ";
+}
+
+#reviews-from-my-teachers {
+    border-top: 1px solid black;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+#reviews-from-my-teachers article {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+#reviews-from-my-teachers article+article {
+    margin-left: 20px;
+}
+
+article>blockquote {
+    color: lightgray;
+    margin-left: 5px;
 }
